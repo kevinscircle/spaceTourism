@@ -55,12 +55,10 @@
         </div>
       </section>
 
-
-
       <section id="typography" style="margin: 4rem 0">
         <h2 class="numbered-title"><span>02 </span>Typography</h2>
         <div class="flex">
-          <div class="flow" style="flex: 1 100%; --flow-space: 4rem;">
+          <div class="flow" style="flex: 1 100%; --flow-space: 4rem">
             <div>
               <p class="text-accent">Heading 1 - Bellefair Regular - 150px</p>
               <p class="fs-900 ff-serif uppercase">Earth</p>
@@ -90,7 +88,7 @@
             </div>
           </div>
 
-          <div class="flow" style="flex: 1 100%; --flow-space: 4rem;">
+          <div class="flow" style="flex: 1 100%; --flow-space: 4rem">
             <div>
               <p class="text-accent">Subheading 1 - Bellefair Regular - 28px</p>
               <p class="fs-500 ff-serif uppercase">384,400 km</p>
@@ -137,49 +135,99 @@
 
       <section class="flow" id="interactive-elements">
         <h2 class="numbered-title"><span>03</span> Interactive elements</h2>
-        
+
         <!-- navigation -->
         <div>
           <nav>
             <ul class="primary-navigation underline-indicators flex">
-                <li class="active"><a class="uppercase text-white letter-spacing-2" href="#"><span>01</span>Active</a>
-                <li><a class="uppercase text-white letter-spacing-2" href="#"><span>02</span>Hovered</a>
-                <li><a class="uppercase text-white letter-spacing-2" href="#"><span>03</span>Idle</a>
+              <li class="active">
+                <a class="uppercase text-white letter-spacing-2" href="#"
+                  ><span>01</span>Active</a
+                >
+              </li>
+              <li>
+                <a class="uppercase text-white letter-spacing-2" href="#"
+                  ><span>02</span>Hovered</a
+                >
+              </li>
+              <li>
+                <a class="uppercase text-white letter-spacing-2" href="#"
+                  ><span>03</span>Idle</a
+                >
+              </li>
             </ul>
-        </nav>
+          </nav>
         </div>
-        
+
         <div class="flex">
           <div style="margin-top: 5rem">
             <!-- explore button -->
-            <a href="#" class="large-button uppercase ff-serif fs-600 text-dark bg-white">Explore</a>
-        </div>
-            
-            <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem">
-                <!-- Tabs -->
-                
-                <div class="tab-list underline-indicators flex">
-                  <button aria-selected="true" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Moon</button>
-                  <button aria-selected="false" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Mars</button>
-                  <button aria-selected="false" class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2">Europa</button>
-              </div>
-                <!-- Dots -->
-                <div class="dot-indicators flex">
-                  <button aria-selected="true"><span class="sr-only">Slide title</span></button>
-                  <button aria-selected="false"><span class="sr-only">Slide title</span></button>
-                  <button aria-selected="false"><span class="sr-only">Slide title</span></button>
-              </div>
-                
-                <!-- Numbers -->
-                <div class="number-indicators flex">
-                  <button aria-selected="true" class="ff-serif text-dark bg-white">1</button>
-                  <button aria-selected="false" class="ff-serif text-white bg-dark">2</button>
-                  <button aria-selected="false" class="ff-serif text-white bg-dark">3</button>
-                </div>
+            <a
+              href="#"
+              class="large-button uppercase ff-serif fs-600 text-dark bg-white"
+              >Explore</a
+            >
+          </div>
+
+          <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem">
+            <!-- Tabs -->
+
+            <div class="tab-list underline-indicators flex">
+              <button
+                aria-selected="true"
+                class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+              >
+                Moon
+              </button>
+              <button
+                aria-selected="false"
+                class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+              >
+                Mars
+              </button>
+              <button
+                aria-selected="false"
+                class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+              >
+                Europa
+              </button>
             </div>
+            <!-- Dots -->
+            <div class="dot-indicators flex">
+              <button aria-selected="true">
+                <span class="sr-only">Slide title</span>
+              </button>
+              <button aria-selected="false">
+                <span class="sr-only">Slide title</span>
+              </button>
+              <button aria-selected="false">
+                <span class="sr-only">Slide title</span>
+              </button>
+            </div>
+
+            <!-- Numbers -->
+            <div class="number-indicators flex test">
+              <button aria-selected="true" class="ff-serif text-dark bg-white">
+                1
+              </button>
+              <button aria-selected="false" class="ff-serif text-white bg-dark">
+                2
+              </button>
+              <button aria-selected="false" class="ff-serif text-white bg-dark">
+                3
+              </button>
+            </div>
+          </div>
         </div>
-        
-    </section>
+        <!-- 
+        <div class="container-three">
+         
+            <div class="fun">a</div>
+            <div class="fun">a</div>
+          
+          
+        </div> -->
+      </section>
     </div>
 
     <script src="index.pack.js"></script>
